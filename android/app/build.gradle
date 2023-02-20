@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.rn_starter_kit"
+        applicationId "com.myfacetime.myfacetimeapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         multiDexEnabled true

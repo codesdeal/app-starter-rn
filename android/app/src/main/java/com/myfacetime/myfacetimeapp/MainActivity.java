@@ -1,4 +1,4 @@
-package com.rn_starter_kit;
+package com.myfacetime.myfacetimeapp;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "StarterApp";
+    return "MyFaceTime";
   }
 }
