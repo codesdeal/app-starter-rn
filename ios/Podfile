@@ -9,20 +9,20 @@ pod 'FirebaseCore', :modular_headers => true
 pod 'FirebaseCoreInternal', :modular_headers => true
 pod 'GoogleUtilities', :modular_headers => true
 
-target 'MyFaceTime' do
+target 'rn_starter_kit' do
   config = use_native_modules!
   use_react_native!(:path => config[:reactNativePath],:hermes_enabled => true)
 
-  target 'MyFaceTimeTests' do
+  target 'rn_starter_kitTests' do
     inherit! :complete
     # Pods for testing
   end
 end
 
-target 'MyFaceTime-tvOS' do
-  # Pods for MyFaceTime-tvOS
+target 'rn_starter_kit-tvOS' do
+  # Pods for rn_starter_kit-tvOS
 
-  target 'MyFaceTime-tvOSTests' do
+  target 'rn_starter_kit-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
